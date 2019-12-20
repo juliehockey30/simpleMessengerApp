@@ -48,11 +48,16 @@ class Messages extends Component {
     if(message.sender === window.sessionStorage.getItem('user')) {
       currentSender = true;
     }
-    
+
     return(
       <MessagesWrapper currentSender={currentSender}>
         <Sender>{message.sender}</Sender>
-        <Message color={message.senderColor}>{message.text}</Message>
+        <Message
+          color={message.senderColor}
+          currentSender={currentSender}
+        >
+          {message.text}
+        </Message>
       </MessagesWrapper>
     )
   }
