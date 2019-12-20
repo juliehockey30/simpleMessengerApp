@@ -30,7 +30,7 @@ class App extends Component {
     return (
       <Wrapper>
         <Warning>Note that all messages you send are FINAL.</Warning>
-        <SubWarning>There's no unsending them, and everyone who access to the app will be able to see your message(s).</SubWarning>
+        <SubWarning>There's no unsending them, and everyone who has access to the app will be able to see your message(s).</SubWarning>
         <SubWarning>Happy chatting!</SubWarning>
         <ComponentWrapper>
           <Messages />
