@@ -15,9 +15,7 @@ Additionally, everyone with access to this app can see the messages.
 
 ## Technologies Used:
 
-React
-Firebase
-Styled Components
+React, Firebase, Styled Components
 
 ## App Limitations/Rooms for improvement:
 
